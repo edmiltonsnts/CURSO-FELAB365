@@ -1,0 +1,35 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,;
+  margin: 0;
+}
+
+header {
+  background-color: #463e3e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.content {
+  background-color: rgb(231, 226, 219);
+  padding: 20px;
+  border-radius: 3px;
+  
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
