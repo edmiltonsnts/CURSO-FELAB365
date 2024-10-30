@@ -2,16 +2,13 @@
   background-color: rgb(196, 187, 187);
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
+  
 }
 
-#fotoperfil {
-  width: 200px;
-}
-
-th, td{
+td, th{
   border: 1px solid black;
-  margin: 10px;
-  padding: 1rem;
+  margin: 5px;
+  padding: 2px;
 
 }
 

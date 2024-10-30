@@ -1,0 +1,16 @@
+body {
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imagem-flutuante {
+  float: left;
+  width: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  clear: both;
+
+}
