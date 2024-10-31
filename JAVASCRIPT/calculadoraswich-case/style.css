@@ -1,19 +1,11 @@
-
 body {
-  background-color: black;
-}
-
-
-
-
-div {
- 
+  
   padding: 30px;
   margin: 2px;
   text-align: center;
-  border: 2px solid rgb(248, 248, 248);
+  border: 2px solid black;
   width: 300px;
-  color: aliceblue;
+  color: black;
   
 
 }

@@ -7,16 +7,23 @@ function efetuaOperacao() {
   switch (operador) {
 
     case "+":
-      resultado = num + num2;
+      resultado = num1 + num2;
       break;
     case "-":
-      resultado = num - num2;
+      resultado = num1 - num2;
       break;
     case "*":
-      resultado = num * num2;
+      resultado = num1 * num2;
       break;
     case "/":
-      resultado = num / num2;
+      if(num2 == 0) {
+        resultado = "Divisão por 0 é inválida!"
+
+      }
+      else{
+        resultado = num1 / num2;
+
+      }
       break;
     default:
       resultado = "Operador inválido!"
