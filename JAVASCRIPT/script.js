@@ -1,13 +1,12 @@
-function varTeste1()
-{
-  var num1 = 10;
-  var num2 = 20;
+function verificaAprovacao() {
+  let nota = document.getElementById("nota").value;
+  console.log("Nota inserida: ", nota);
 
-  console.log(num1 + num2);
+  if (nota >= 7) {
+    document.getElementById("resultado").innerHTML = "Aluno(a) aprovado(a)!";
+    alert("Aluno(a) aprovado(a)!");
+  } else {
+    document.getElementById("resultado").innerHTML = "Aluno(a) reprovado(a)!";
+    alert("Aluno(a) reprovado(a)!");
+  }
 }
-
-var num2 = 50;
-
-varTeste1();
-
-console.log(num2);
