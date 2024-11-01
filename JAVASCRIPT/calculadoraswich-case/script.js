@@ -15,6 +15,8 @@ function efetuaOperacao() {
     case "*":
       resultado = num1 * num2;
       break;
+
+      
     case "/":
       if(num2 == 0) {
         resultado = "Divisão por 0 é inválida!"
@@ -26,7 +28,7 @@ function efetuaOperacao() {
       }
       break;
     default:
-      resultado = "Operador inválido!"
+      resultado = "Operador inválido..."
 
   }
       document.getElementById("resultado").innerHTML = "Resultado: " + resultado;
