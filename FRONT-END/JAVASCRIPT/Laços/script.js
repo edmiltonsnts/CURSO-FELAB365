@@ -58,3 +58,26 @@ for(let carro of carros);
   dados += "<P>"+carro+"</P>";
 }
 criaSecao("Loop for OF",dados);
+
+
+let carro1 = {marca: "Ford", modelo: "ka", ano: "2015"};
+let carro2 = {marca: "Ford", modelo: "fusion", ano: "2016"};
+
+let carros2 = [];
+carro2.push(carro1);
+carro2.push(carro2);
+
+dados = "";
+for(let carro of carros2);
+{
+  let propriedades ="";
+
+  for(let prop in carro)
+  {
+    propriedades += carro[prop] +" ";
+
+  }
+  dados += "<P>"+propriedades+"</P>";
+}
+
+criaSecao("Loop for OF",dados);
