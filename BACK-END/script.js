@@ -13,10 +13,21 @@ switch (cidade) {
 }
 
 
-const array1 = [11,2,3,4,8,9];
+const array1 = [11,2,3,5,8,1,9];
 const array2 = ["JavaScript", "back-end", "node"];
 const array3 = [[1,2,3], [1,4,5], [5,8,3]];
-console.log(array3);
+
+
+//array1.pop(); //pop remove no final
+//console.log(array1); 
+
+//array1.shift(); //shift remove no inicio
+//console.log(array1);
+
+//array1.unshift(15);
+//array1.sort((a,b)=> a- b);
+//array1.push(10);
+//console.log(array1);
 
 
 
