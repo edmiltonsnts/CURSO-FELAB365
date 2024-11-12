@@ -18,6 +18,19 @@ const array2 = ["JavaScript", "back-end", "node"];
 const array3 = [[1,2,3], [1,4,5], [5,8,3]];
 
 
+
+/*for(let i = 0; i < array1.length ; i++){
+  console.log(array1[i] +1);
+}*/
+
+for(let item of array1){
+  if (item > 10) {
+    break;
+    //continue;
+  }
+  console.log(item +1);
+}
+
 //array1.pop(); //pop remove no final
 //console.log(array1); 
 
@@ -28,17 +41,6 @@ const array3 = [[1,2,3], [1,4,5], [5,8,3]];
 //array1.sort((a,b)=> a- b);
 //array1.push(10);
 //console.log(array1);
-
-
-
-
-
-
-
-
-
-
-
 
 //let num1 = 10;
 //let num2 = 5;
