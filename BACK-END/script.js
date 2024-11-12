@@ -13,6 +13,11 @@ switch (cidade) {
 }
 
 
+const array1 = [11,2,3,4,8,9];
+const array2 = ["JavaScript", "back-end", "node"];
+const array3 = [[1,2,3], [1,4,5], [5,8,3]];
+console.log(array3);
+
 
 
 
